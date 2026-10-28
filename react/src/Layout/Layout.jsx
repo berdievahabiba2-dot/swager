@@ -2,7 +2,7 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import './Layout.css'
-import ico from '../Companent/work.png'
+import ico from '../Companent/logo.png'
 
 const Layout = () => {
   return (
@@ -10,14 +10,14 @@ const Layout = () => {
       <header>
         <nav className="menu">
           <img src={ico} alt="" />
-          <Link to="/">Биржа</Link>
-          <Link to="/services">Ворки</Link>
-          <Link to="/careers">Конкурсы</Link>
-          <Link to="/careerDetails">Создать ворк</Link>
-          <Link to="/contact">Создать заказ</Link>
+          <Link to="/">About Us</Link>
+          <Link to="/services">Courses</Link>
+          <Link to="/users">Users</Link>
+          <Link to="/login">Login</Link>
+
           <div className='bb'>
-            <button className='but'>Регистрация</button>
-            <button className='but1'>Войти</button>
+            <button className='but'>Get consultation</button>
+            <button className='but1'>Log in / Register</button>
           </div>
         </nav>
       </header>

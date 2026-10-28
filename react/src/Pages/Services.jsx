@@ -1,247 +1,64 @@
 import React from 'react'
 import './Services.css'
-import img2 from '../Companent/Group2.png'
-import img3 from '../Companent/Group1.png'
+import img4 from '../Companent/img4.png'
+
+
 
 
 
 const Services = () => {
   return (
     <div>
-
-      <div className='cradi'>
-        <div className='min'>
-          <h3>Нужно сделать Дизайн сайта по тематике авто</h3>
-          <div>
-            <h3>Бюджет: 50 000 тенге</h3>
-            <p>4 часа 28 минут назад</p>
-          </div>
-        </div>
-        <div className='mini'>
-          <img src={img2} alt="" />
-          <div>
-            <p>Екатерина Иванова</p>
-            <p>Размещено проектов на бирже: 25</p>
-            <div className='non'>
-              <img src={img3} alt="" />
-              <p>15 отзывов</p>
-            </div>
-          </div>
+      <div className='hh'>
+       <div>
+         <h5>Our blog</h5>
+        <h1>Latest posts</h1>
+       </div>
+        <div>
+          <button>Go to blog</button>
         </div>
       </div>
 
-       <div className='cradi'>
-        <div className='min'>
-          <h3>Нужно сделать Дизайн сайта по тематике авто</h3>
-          <div>
-            <h3>Бюджет: 50 000 тенге</h3>
-            <p>4 часа 28 минут назад</p>
+      <div className='kard'>
+        <div className='kart'>
+          <img src={img4} alt="" />
+          <div className='byi'>
+          <p>Marketing September 4, 202036 min</p>
+          <h5>What is traffic arbitrage and does it really make money?</h5>
+          <p>Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
+          <h6>Listen</h6>
           </div>
         </div>
-        <div className='mini'>
-          <img src={img2} alt="" />
-          <div>
-            <p>Екатерина Иванова</p>
-            <p>Размещено проектов на бирже: 25</p>
-            <div className='non'>
-              <img src={img3} alt="" />
-              <p>15 отзывов</p>
-            </div>
+
+         <div className='kart'>
+          <img src={img4} alt="" />
+          <div className='byi'>
+          <p>Marketing September 4, 202036 min</p>
+          <h5>What is traffic arbitrage and does it really make money?</h5>
+          <p>Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
+          <h6>Listen</h6>
           </div>
         </div>
-      </div>
-       <div className='cradi'>
-        <div className='min'>
-          <h3>Нужно сделать Дизайн сайта по тематике авто</h3>
-          <div>
-            <h3>Бюджет: 50 000 тенге</h3>
-            <p>4 часа 28 минут назад</p>
-          </div>
-        </div>
-        <div className='mini'>
-          <img src={img2} alt="" />
-          <div>
-            <p>Екатерина Иванова</p>
-            <p>Размещено проектов на бирже: 25</p>
-            <div className='non'>
-              <img src={img3} alt="" />
-              <p>15 отзывов</p>
-            </div>
-          </div>
-        </div>
-      </div>
-       <div className='cradi'>
-        <div className='min'>
-          <h3>Нужно сделать Дизайн сайта по тематике авто</h3>
-          <div>
-            <h3>Бюджет: 50 000 тенге</h3>
-            <p>4 часа 28 минут назад</p>
-          </div>
-        </div>
-        <div className='mini'>
-          <img src={img2} alt="" />
-          <div>
-            <p>Екатерина Иванова</p>
-            <p>Размещено проектов на бирже: 25</p>
-            <div className='non'>
-              <img src={img3} alt="" />
-              <p>15 отзывов</p>
-            </div>
-          </div>
-        </div>
-      </div>
-       <div className='cradi'>
-        <div className='min'>
-          <h3>Нужно сделать Дизайн сайта по тематике авто</h3>
-          <div>
-            <h3>Бюджет: 50 000 тенге</h3>
-            <p>4 часа 28 минут назад</p>
-          </div>
-        </div>
-        <div className='mini'>
-          <img src={img2} alt="" />
-          <div>
-            <p>Екатерина Иванова</p>
-            <p>Размещено проектов на бирже: 25</p>
-            <div className='non'>
-              <img src={img3} alt="" />
-              <p>15 отзывов</p>
-            </div>
-          </div>
-        </div>
-      </div>
-       <div className='cradi'>
-        <div className='min'>
-          <h3>Нужно сделать Дизайн сайта по тематике авто</h3>
-          <div>
-            <h3>Бюджет: 50 000 тенге</h3>
-            <p>4 часа 28 минут назад</p>
-          </div>
-        </div>
-        <div className='mini'>
-          <img src={img2} alt="" />
-          <div>
-            <p>Екатерина Иванова</p>
-            <p>Размещено проектов на бирже: 25</p>
-            <div className='non'>
-              <img src={img3} alt="" />
-              <p>15 отзывов</p>
-            </div>
-          </div>
-        </div>
-      </div>
-       <div className='cradi'>
-        <div className='min'>
-          <h3>Нужно сделать Дизайн сайта по тематике авто</h3>
-          <div>
-            <h3>Бюджет: 50 000 тенге</h3>
-            <p>4 часа 28 минут назад</p>
-          </div>
-        </div>
-        <div className='mini'>
-          <img src={img2} alt="" />
-          <div>
-            <p>Екатерина Иванова</p>
-            <p>Размещено проектов на бирже: 25</p>
-            <div className='non'>
-              <img src={img3} alt="" />
-              <p>15 отзывов</p>
-            </div>
-          </div>
-        </div>
-      </div>
-       <div className='cradi'>
-        <div className='min'>
-          <h3>Нужно сделать Дизайн сайта по тематике авто</h3>
-          <div>
-            <h3>Бюджет: 50 000 тенге</h3>
-            <p>4 часа 28 минут назад</p>
-          </div>
-        </div>
-        <div className='mini'>
-          <img src={img2} alt="" />
-          <div>
-            <p>Екатерина Иванова</p>
-            <p>Размещено проектов на бирже: 25</p>
-            <div className='non'>
-              <img src={img3} alt="" />
-              <p>15 отзывов</p>
-            </div>
-          </div>
-        </div>
-      </div>
-       <div className='cradi'>
-        <div className='min'>
-          <h3>Нужно сделать Дизайн сайта по тематике авто</h3>
-          <div>
-            <h3>Бюджет: 50 000 тенге</h3>
-            <p>4 часа 28 минут назад</p>
-          </div>
-        </div>
-        <div className='mini'>
-          <img src={img2} alt="" />
-          <div>
-            <p>Екатерина Иванова</p>
-            <p>Размещено проектов на бирже: 25</p>
-            <div className='non'>
-              <img src={img3} alt="" />
-              <p>15 отзывов</p>
-            </div>
-          </div>
-        </div>
-      </div>
-       <div className='cradi'>
-        <div className='min'>
-          <h3>Нужно сделать Дизайн сайта по тематике авто</h3>
-          <div>
-            <h3>Бюджет: 50 000 тенге</h3>
-            <p>4 часа 28 минут назад</p>
-          </div>
-        </div>
-        <div className='mini'>
-          <img src={img2} alt="" />
-          <div>
-            <p>Екатерина Иванова</p>
-            <p>Размещено проектов на бирже: 25</p>
-            <div className='non'>
-              <img src={img3} alt="" />
-              <p>15 отзывов</p>
-            </div>
+
+         <div className='kart'>
+          <img src={img4} alt="" />
+          <div className='byi'>
+          <p>Marketing September 4, 202036 min</p>
+          <h5>What is traffic arbitrage and does it really make money?</h5>
+          <p>Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
+          <h6>Listen</h6>
           </div>
         </div>
       </div>
 
-      <button className='but'>Загрузить еще</button>
-      <div className='log'>
-        <div>
-          <h4>Топ категории</h4>
-          <p>Тексты и переводы</p>
-          <p>Разработка</p>
-          <p>Дизайн</p>
-          <p>Аудио, видео монтаж</p>
-          <p>Соцсети и реклама</p>
-          <p>Бизнес и жизнь</p>
-          <p>SEO и оптимизация</p>
-        </div>
-        <div>
-          <h4>О Проекте</h4>
-          <p>О Нас</p>
-          <p>Как Это Работает</p>
-          <p>Политика Приватности</p>
-          <p>Правила Пользования </p>
-          <p>Пресса о нас</p>
-        </div>
-        <div>
-          <h4>Поддержка</h4>
-          <p>Контакты</p>
-          <p>Политика Безопасности</p>
-          <p>FAQ</p>
-        </div>
-        <div>
-          <h4>Follow</h4>
-        </div>
+      <div className='kk'>
+          <h5 className='hh1'>Don’t miss anything</h5>
+        <h1 className='hh1'>Subscribe to the Createx School announcements</h1>
+       <div className='oo'>
+         <input type="email" name="" id=""  placeholder='Your working email'/>
+        <button>Subscribe</button>
+       </div>
       </div>
-        <p className='p'>Copyright @ 2021  |  WorkTap – Worktap.KZ. All Rights Reserved</p>
 
 
     </div>

@@ -1,14 +1,14 @@
 
-import React from 'react'
+import React, { lazy, Suspense } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
+import AuthFlow from "./Pages/AuthFlow";
 import Layout from './Layout/Layout'
-import Home from './Pages/Home'
+import Login from './Pages/Login'
 import Services from './Pages/Services'
+import Home from './Pages/Home'
 import NotFound from './Pages/NotFound'
-import Careers from './Pages/Careers'
-import CareerDetails from './Pages/CareerDetails'
-import Contact from './Pages/Contact'
+import Users from './Pages/Users';
 
 const router = createBrowserRouter([
   {
@@ -17,27 +17,23 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home/>
+        element: <AuthFlow><Home/> </AuthFlow>
       },
       {
         path: 'services',
-        element: <Services />
+        element: <AuthFlow><Services/></AuthFlow>
+      },
+       {
+        path: 'users',
+        element: <AuthFlow><Users/></AuthFlow>
       },
       {
-        path: 'careers',
-        element: <Careers />
-      },
-      {
-        path: 'careerDetails',
-        element: <CareerDetails />
-      },
-      {
-        path: 'contact',
-        element: <Contact />
+        path: 'login',
+        element: <AuthFlow><Login/></AuthFlow>
       },
       {
         path: '*',
-        element: <NotFound />
+        element: <AuthFlow><NotFound/></AuthFlow>
       }
     ]
   }
